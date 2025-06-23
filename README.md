@@ -52,6 +52,43 @@ npm start
 
 4. Open your browser and navigate to `http://localhost:3000`
 
+## Local Development
+
+### Quick Start
+The easiest way to run the app locally is using the provided script:
+
+```bash
+./start.sh
+```
+
+This script will:
+- Kill any existing processes on port 3000
+- Install dependencies if needed
+- Start the server on http://localhost:3000
+
+### Manual Start
+If you prefer to start manually:
+
+```bash
+# Install dependencies (first time only)
+npm install
+
+# Start the server
+npm start
+
+# Or specify a different port
+PORT=3001 npm start
+```
+
+### Development Mode
+For development with auto-restart on file changes:
+
+```bash
+npm run dev
+```
+
+**Note**: Make sure you have `nodemon` installed globally or as a dev dependency.
+
 ## Usage
 
 ### Web Interface

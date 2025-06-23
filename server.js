@@ -35,7 +35,7 @@ app.use(express.static('.'));
 
 // Routes
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'index.html'));
+    res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 // API endpoint to get all exchange rates
