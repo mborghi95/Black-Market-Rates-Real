@@ -9,11 +9,11 @@
   "routes": [
     {
       "src": "/styles.css",
-      "dest": "/public/styles.css"
+      "dest": "/styles.css"
     },
     {
       "src": "/script.js",
-      "dest": "/public/script.js"
+      "dest": "/script.js"
     },
     {
       "src": "/api/(.*)",
