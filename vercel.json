@@ -8,12 +8,12 @@
   ],
   "routes": [
     {
-      "src": "/public/styles.css",
-      "dest": "/styles.css"
+      "src": "/styles.css",
+      "dest": "/public/styles.css"
     },
     {
-      "src": "/public/script.js",
-      "dest": "/script.js"
+      "src": "/script.js",
+      "dest": "/public/script.js"
     },
     {
       "src": "/api/(.*)",
