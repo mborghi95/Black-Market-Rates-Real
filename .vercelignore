@@ -1,0 +1,9 @@
+node_modules
+.git
+.DS_Store
+*.log
+server.log
+.env.local
+.env.development
+.env.test
+.env.production 
